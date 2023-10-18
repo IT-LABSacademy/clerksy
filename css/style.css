@@ -1,0 +1,44 @@
+@font-face {
+  src: url(../fonts/Recoleta-SemiBold.ttf);
+  font-family: "Reco";
+}
+
+@font-face {
+  src: url(../fonts/NotoSans-Regular.ttf);
+  font-family: "Noto";
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --green: #163A24;
+  --light-green: #198C36;
+  --text-color: #FBFAF7;
+  --beige: #F2EFE6;
+  --pink: #FAB5A0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Noto", sans-serif;
+  font-weight: 400;
+}
+
+/* General */
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
