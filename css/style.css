@@ -32,6 +32,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: 0;
+  outline: 0;
+  background: 0;
+}
+
 body {
   font-family: "Noto", sans-serif;
   font-weight: 400;
@@ -39,6 +45,86 @@ body {
 
 /* General */
 .container {
-  width: 1180px;
+  width: 100%;
+  max-width: 1210px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  padding: 15px 25px;
+  border-radius: 160px;
+  background-color: var(--light-green);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Noto", sans-serif;
+  color: var(--text-color);
+}
+
+.text-content .title {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Reco", sans-serif;
+}
+
+.text-content .title.green {
+  color: var(--green);
+}
+
+.text-content .title.white {
+  color: var(--white);
+}
+
+.text-content .subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto", sans-serif;
+  margin-top: 20px;
+}
+
+.text-content .subtitle.white {
+  color: var(--text-color);
+}
+
+.text-content .subtitle.green {
+  color: var(--green);
+}
+
+/* header */
+
+.header {
+  padding: 20px 0;
+  background-color: var(--green);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  color: var(--text-color);
+}
+
+.header .container .burger {
+  color: var(--white);
+  font-size: 25px;
+  display: none;
+}
+
+/* hero */
+.hero {
+  background-color: var(--green);
+}
+
+.hero .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
