@@ -10,6 +10,11 @@
   .hero .container .img-block img {
     width: 400px;
   }
+
+  .human .container .img-block img,
+  .play .container .img-block img {
+    width: 350px;
+  }
 }
 
 
@@ -27,7 +32,16 @@
     display: none;
   }
 
-  .hero .container {
+  
+  .hero .container,
+  .human .container,
+  .play .container {
     flex-wrap: wrap;
+    justify-content: center;
   }
+
+.play .container .img-block{
+  order: -1;
+}
+
 }

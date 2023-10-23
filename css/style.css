@@ -123,8 +123,38 @@ body {
   background-color: var(--green);
 }
 
-.hero .container{
+.hero .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* human */
+/* play */
+.human .container,
+.play .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+
+.human .container .text-content,
+.play .container .text-content {
+  width: 374px;
+}
+
+/* Brands */
+.brands .container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.brands .container .gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 66px 0;
 }
