@@ -1,3 +1,12 @@
+/* 1170 */
+@media(max-width:1170px) {
+  .features .container .wrapper .card:nth-child(2){
+    order: 1;
+  } 
+    
+}
+
+
 /* 1140 */
 @media(max-width:1140px) {
   .hero .container .img-block img {
@@ -17,11 +26,6 @@
   }
 }
 
-
-
-
-
-
 /* 770 */
 @media(max-width: 770px) {
   .header .container .burger {
@@ -32,7 +36,6 @@
     display: none;
   }
 
-  
   .hero .container,
   .human .container,
   .play .container {
@@ -40,8 +43,19 @@
     justify-content: center;
   }
 
-.play .container .img-block{
-  order: -1;
+  .play .container .img-block {
+    order: -1;
+  }
 }
 
+/* 500 */
+@media (max-width:500px) {
+  .hero .container .img-block img {
+    width: 300px;
+  }
+
+  .human .container .img-block img,
+  .play .container .img-block img {
+    width: 250px;
+  }
 }

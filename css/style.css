@@ -158,3 +158,80 @@ body {
   gap: 60px;
   padding: 66px 0;
 }
+
+/* hr */
+.hr {
+  background: var(--green);
+  text-align: center;
+  padding: 70px 0 110px;
+}
+
+.hr .container .wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding-top: 67px;
+}
+
+.hr .container .wrapper .card {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.hr .container .wrapper .card img {
+  margin-bottom: 28px;
+}
+
+.hr .container .wrapper .card .text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto", sans-serif;
+  color: var(--text-color);
+}
+
+/* features */
+.features {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.features .container .wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 41px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.features .container .wrapper .card {
+  width: 353px;
+  background: var(--text-color);
+  box-shadow: 5px 5px 20px 0px #E9E4D5;
+  padding: 40px 50px;
+  border-radius: 15px;
+}
+
+.features .container .wrapper .card h3 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Reco", sans-serif;
+  color: var(--green);
+  margin: 20px 0;
+  line-height: 31.5px;
+}
+
+.features .container .wrapper .card ul li {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto", sans-serif;
+  color: var(--green);
+  list-style: disc;
+  line-height: 35px;
+}
