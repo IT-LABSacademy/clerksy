@@ -235,3 +235,57 @@ body {
   list-style: disc;
   line-height: 35px;
 }
+
+/* easy */
+.easy {
+  background: var(--beige);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.easy .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 35px 0;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.easy .wrapper .item {
+  width: 262px;
+  color: var(--green);
+}
+
+.easy .wrapper .item:last-child {
+  position: relative;
+}
+
+.easy .wrapper .item:last-child::after {
+  content: "";
+  width: 290px;
+  height: 183px;
+  position: absolute;
+  left: -15px;
+  top: -50%;
+  background: url(../Images/circle.png) no-repeat center/contain;
+}
+
+.easy .wrapper .item img {
+  width: 200px;
+}
+
+
+.easy .wrapper .item p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto", sans-serif;
+  margin-bottom: 13px;
+
+}
+
+.easy .wrapper .item h3 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Reco", sans-serif;
+}

@@ -1,9 +1,9 @@
 /* 1170 */
 @media(max-width:1170px) {
-  .features .container .wrapper .card:nth-child(2){
+  .features .container .wrapper .card:nth-child(2) {
     order: 1;
-  } 
-    
+  }
+
 }
 
 
@@ -11,6 +11,10 @@
 @media(max-width:1140px) {
   .hero .container .img-block img {
     width: 600px;
+  }
+
+  .easy .wrapper {
+    justify-content: center;
   }
 }
 
@@ -46,7 +50,13 @@
   .play .container .img-block {
     order: -1;
   }
+
+  .easy .wrapper .item:last-child::after {
+    display: none;
+  }
+
 }
+
 
 /* 500 */
 @media (max-width:500px) {
