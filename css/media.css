@@ -4,6 +4,14 @@
     order: 1;
   }
 
+  .easy .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .easy .btn {
+    margin-top: 20px;
+  }
+
 }
 
 
@@ -15,6 +23,12 @@
 
   .easy .wrapper {
     justify-content: center;
+  }
+
+  .start::after,
+  .start::before {
+    width: 550px;
+    height: 350px;
   }
 }
 
@@ -55,6 +69,16 @@
     display: none;
   }
 
+  .easy .wrapper .arrow {
+    width: 450px !important;
+    transform: rotate(90deg);
+  }
+
+  .start::after,
+  .start::before {
+    width: 200px;
+    height: 250px;
+  }
 }
 
 
@@ -67,5 +91,11 @@
   .human .container .img-block img,
   .play .container .img-block img {
     width: 250px;
+  }
+
+  .start::after,
+  .start::before {
+    width: 200px;
+    height: 160px;
   }
 }
